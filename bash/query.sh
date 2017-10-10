@@ -65,3 +65,7 @@ sleep 2
 php -q /hostdata/api.dopehosting.net/namecheap/get_blog.php > /hostdata/api.dopehosting.net/public_html/namecheap/json/blog.json
 sleep 1
 php -q /hostdata/api.dopehosting.net/namecheap/get_news.php > /hostdata/api.dopehosting.net/public_html/namecheap/json/news.json
+
+
+# Build all.json
+php -q /hostdata/api.dopehosting.net/all/all.php > /hostdata/api.dopehosting.net/public_html/all/all.json 
