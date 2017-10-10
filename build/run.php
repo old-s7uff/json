@@ -41,3 +41,12 @@ $clients = $json10;
 $host = $json11;
 $domains = $json12;
 ?>
+<html>
+Array
+(
+    [clients] => ,
+    [host] => ,
+    [domains] => ,
+    [domain]
+)
+</html>
