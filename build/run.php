@@ -40,9 +40,8 @@ $blog = $json9['CommandResponse']['UserGetPricingResult']['ProductType']['Produc
 $clients = $json10;
 $host = $json11;
 $domains = $json12;
-?>
-<html>
-Array
+
+echo "Array
 (
     [whmcs] => Array
     (
@@ -54,27 +53,25 @@ Array
     (
        [com] => Array
        (
-         [Duration] => 1
-         [DurationType] => YEAR
-         [Price] => 8.88
-         [AdditionalCost] => 0.18
-         [RegularPrice] => 10.69
+         [Duration] => {$com['Duration']}
+         [DurationType] => {$com['DurationType']}
+         [Price] => {$com['Price']}
+         [AdditionalCost] => {$com['AdditionalCost']}
+         [RegularPrice] => {$com['RegularPrice']}
          [Currency] => USD
        )
        [net] => Array
        (
-         [Duration] => 1
-         [DurationType] => YEAR
-         [Price] => 8.88
-         [AdditionalCost] => 0.18
-         [RegularPrice] => 10.69
+         [Duration] => {$net['Duration']}
+         [DurationType] => {$net['DurationType']}
+         [Price] => {$net['Price']}
+         [AdditionalCost] => {$net['AdditionalCost']}
+         [RegularPrice] => {$net['RegularPrice']}
          [Currency] => USD
        )
     )
-)
-</html>
+)"
 
-<?php
 // Idea.
 // $ex = $data['whmcs']['clients'];
 // $ex = $data['domain']['com']['Price'];
