@@ -45,9 +45,9 @@ echo "Array
 (
     [whmcs] => Array
     (
-       [clients] =>
-       [host] =>
-       [domains] =>
+       [clients] => {$clients['clients']}
+       [host] => {$host['HDomains']}
+       [domains] => {$domains['RDomains']}
     )
     [domain] => Array
     (
@@ -67,6 +67,33 @@ echo "Array
          [Price] => {$net['Price']}
          [AdditionalCost] => {$net['AdditionalCost']}
          [RegularPrice] => {$net['RegularPrice']}
+         [Currency] => USD
+       )
+       [org] => Array
+       (
+         [Duration] => {$org['Duration']}
+         [DurationType] => {$org['DurationType']}
+         [Price] => {$org['Price']}
+         [AdditionalCost] => {$org['AdditionalCost']}
+         [RegularPrice] => {$org['RegularPrice']}
+         [Currency] => USD
+       )
+       [me] => Array
+       (
+         [Duration] => {$me['Duration']}
+         [DurationType] => {$me['DurationType']}
+         [Price] => {$me['Price']}
+         [AdditionalCost] => {$me['AdditionalCost']}
+         [RegularPrice] => {$me['RegularPrice']}
+         [Currency] => USD
+       )
+       [co] => Array
+       (
+         [Duration] => {$co['Duration']}
+         [DurationType] => {$co['DurationType']}
+         [Price] => {$co['Price']}
+         [AdditionalCost] => {$co['AdditionalCost']}
+         [RegularPrice] => {$co['RegularPrice']}
          [Currency] => USD
        )
     )
