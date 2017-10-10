@@ -44,9 +44,40 @@ $domains = $json12;
 <html>
 Array
 (
-    [clients] => ,
-    [host] => ,
-    [domains] => ,
-    [domain]
+    [whmcs] => Array
+    (
+       [clients] =>
+       [host] =>
+       [domains] =>
+    )
+    [domain] => Array
+    (
+       [com] => Array
+       (
+         [Duration] => 1
+         [DurationType] => YEAR
+         [Price] => 8.88
+         [AdditionalCost] => 0.18
+         [RegularPrice] => 10.69
+         [Currency] => USD
+       )
+       [net] => Array
+       (
+         [Duration] => 1
+         [DurationType] => YEAR
+         [Price] => 8.88
+         [AdditionalCost] => 0.18
+         [RegularPrice] => 10.69
+         [Currency] => USD
+       )
+    )
 )
 </html>
+
+<?php
+// Idea.
+// $ex = $data['whmcs']['clients'];
+// $ex = $data['domain']['com']['Price'];
+// $ex = $data['domain']['com']['RegularPrice'];
+// $ex = $data['domain']['net']['Price'];
+?>
