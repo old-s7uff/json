@@ -56,7 +56,6 @@ echo "Array
          [Duration] => {$com['Duration']}
          [DurationType] => {$com['DurationType']}
          [Price] => {$com['Price']}
-         [AdditionalCost] => {$com['AdditionalCost']}
          [RegularPrice] => {$com['RegularPrice']}
          [Currency] => USD
        )
@@ -65,7 +64,6 @@ echo "Array
          [Duration] => {$net['Duration']}
          [DurationType] => {$net['DurationType']}
          [Price] => {$net['Price']}
-         [AdditionalCost] => {$net['AdditionalCost']}
          [RegularPrice] => {$net['RegularPrice']}
          [Currency] => USD
        )
@@ -74,7 +72,6 @@ echo "Array
          [Duration] => {$org['Duration']}
          [DurationType] => {$org['DurationType']}
          [Price] => {$org['Price']}
-         [AdditionalCost] => {$org['AdditionalCost']}
          [RegularPrice] => {$org['RegularPrice']}
          [Currency] => USD
        )
@@ -83,7 +80,6 @@ echo "Array
          [Duration] => {$me['Duration']}
          [DurationType] => {$me['DurationType']}
          [Price] => {$me['Price']}
-         [AdditionalCost] => {$me['AdditionalCost']}
          [RegularPrice] => {$me['RegularPrice']}
          [Currency] => USD
        )
@@ -92,7 +88,6 @@ echo "Array
          [Duration] => {$co['Duration']}
          [DurationType] => {$co['DurationType']}
          [Price] => {$co['Price']}
-         [AdditionalCost] => {$co['AdditionalCost']}
          [RegularPrice] => {$co['RegularPrice']}
          [Currency] => USD
        )
